@@ -1,62 +1,65 @@
 {
-  "program_name":"programName",
-  "instructions":[
-     {
-        "input_state":{
-           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
-           "state_name":"Stan 1",
-           "state_description":"",
-           "is_initial_state":true,
-           "is_final_state":false
-        },
-        "input_memory":"1",
-        "output_state":{
-           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
-           "state_name":"Stan 1",
-           "state_description":"",
-           "is_initial_state":true,
-           "is_final_state":false
-        },
-        "output_memory":"1",
-        "movement":"2"
-     },
-     {
-        "input_state":{
-           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
-           "state_name":"Stan 1",
-           "state_description":"",
-           "is_initial_state":true,
-           "is_final_state":false
-        },
-        "input_memory":"2",
-        "output_state":{
-           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
-           "state_name":"Stan 1",
-           "state_description":"",
-           "is_initial_state":true,
-           "is_final_state":false
-        },
-        "output_memory":"2",
-        "movement":"2"
-     },
-     {
-        "input_state":{
-           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
-           "state_name":"Stan 1",
-           "state_description":"",
-           "is_initial_state":true,
-           "is_final_state":false
-        },
-        "input_memory":"0",
-        "output_state":{
-           "id":"6e3bfa80-b06c-1e2e-b59f-d9da0d7d2703",
-           "state_name":"Stan koncowy",
-           "state_description":"",
-           "is_initial_state":false,
-           "is_final_state":true
-        },
-        "output_memory":"0",
-        "movement":"1"
-     }
-  ]
+	"program_name":"programName",
+	"instructions":[
+		{
+			"id":"7d08e390-a736-1e34-a079-dff87c3783a9",
+			"input_state":{
+				"id":"eba4d320-a6fc-1e34-a079-dff87c3783a9",
+				"state_name":"Stan 1",
+				"state_description":"",
+				"is_initial_state":true,
+				"is_final_state":false
+			},
+			"input_memory":"0",
+			"output_state":{
+				"id":"9c782070-a730-1e34-a079-dff87c3783a9",
+				"state_name":"Stan 2",
+				"state_description":"",
+				"is_initial_state":false,
+				"is_final_state":true
+			},
+			"output_memory":"0",
+			"movement":"1"
+		},
+		{
+			"id":"bf2a8090-a70d-1e34-a079-dff87c3783a9",
+			"input_state":{
+				"id":"eba4d320-a6fc-1e34-a079-dff87c3783a9",
+				"state_name":"Stan 1",
+				"state_description":"",
+				"is_initial_state":true,
+				"is_final_state":false
+			},
+			"input_memory":"1",
+			"output_state":{
+				"id":"eba4d320-a6fc-1e34-a079-dff87c3783a9",
+				"state_name":"Stan 1",
+				"state_description":"",
+				"is_initial_state":true,
+				"is_final_state":false
+			},
+			"output_memory":"1",
+			"movement":"2"
+		},
+		{
+			"id":"dc276aa0-a717-1e34-a079-dff87c3783a9",
+			"input_state":{
+				"id":"eba4d320-a6fc-1e34-a079-dff87c3783a9",
+				"state_name":"Stan 1",
+				"state_description":"",
+				"is_initial_state":true,
+				"is_final_state":false
+			},
+			"input_memory":"2",
+			"output_state":{
+				"id":"eba4d320-a6fc-1e34-a079-dff87c3783a9",
+				"state_name":"Stan 1",
+				"state_description":"",
+				"is_initial_state":true,
+				"is_final_state":false
+			},
+			"output_memory":"2",
+			"movement":"2"
+		}
+	]
 }
