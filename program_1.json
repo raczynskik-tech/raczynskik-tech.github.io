@@ -1,98 +1,62 @@
 {
-  "name": "Inkrementacja",
-  "description": "Prosty program zwiększający o jeden wartość znajdującą się na taśmie.",
-  "version": "1.0.0",
-  "execution_options": {
-    "display_states_name": true,
-    "display_states_description": true,
-    "value_start_index": 1
-  },
-  "states": [
-    {
-      "name": "q0",
-      "description": "Stan początkowy - przechodzenie w prawą stronę po taśmie"
-    },
-    {
-      "name": "q1",
-      "description": "Osiągnięcie ostatniej wartości na taśmie - zamiana ostatniej wartości na '1' z wartości '0' lub znalezienie pierwszej od prawej wartości '0' i zmiana jej na '1' przy jednoczesnej zamianie wszystkich '1' na '0', które do niej prowadzą lub wpisanie '1', gdy taśma jest pusta"
-    },
-    {
-      "name": "q2",
-      "description": "Powrót na początek taśmy"
-    },
-    {
-      "name": "qacc",
-      "description": "Koniec wykonywania programu"
-    }
-  ],
-  "states_options": {
-    "initial_state": "q0",
-    "accepting_state": "qacc",
-    "rejecting_state": ""
-  },
-  "instructions": [
-    {
-      "state_1": "q0",
-      "tape_1": "0",
-      "state_2": "q0",
-      "tape_2": "0",
-      "move": "R"
-    },
-    {
-      "state_1": "q0",
-      "tape_1": "1",
-      "state_2": "q0",
-      "tape_2": "1",
-      "move": "R"
-    },
-    {
-      "state_1": "q0",
-      "tape_1": "_",
-      "state_2": "q1",
-      "tape_2": "_",
-      "move": "L"
-    },
-    {
-      "state_1": "q1",
-      "tape_1": "0",
-      "state_2": "q2",
-      "tape_2": "1",
-      "move": "L"
-    },
-    {
-      "state_1": "q2",
-      "tape_1": "0",
-      "state_2": "q2",
-      "tape_2": "0",
-      "move": "L"
-    },
-    {
-      "state_1": "q2",
-      "tape_1": "1",
-      "state_2": "q2",
-      "tape_2": "1",
-      "move": "L"
-    },
-    {
-      "state_1": "q2",
-      "tape_1": "_",
-      "state_2": "qacc",
-      "tape_2": "_",
-      "move": "R"
-    },
-    {
-      "state_1": "q1",
-      "tape_1": "1",
-      "state_2": "q1",
-      "tape_2": "0",
-      "move": "L"
-    },
-    {
-      "state_1": "q1",
-      "tape_1": "_",
-      "state_2": "qacc",
-      "tape_2": "1",
-      "move": "S"
-    }
+  "program_name":"programName",
+  "instructions":[
+     {
+        "input_state":{
+           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
+           "state_name":"Stan 1",
+           "state_description":"",
+           "is_initial_state":true,
+           "is_final_state":false
+        },
+        "input_memory":"1",
+        "output_state":{
+           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
+           "state_name":"Stan 1",
+           "state_description":"",
+           "is_initial_state":true,
+           "is_final_state":false
+        },
+        "output_memory":"1",
+        "movement":"2"
+     },
+     {
+        "input_state":{
+           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
+           "state_name":"Stan 1",
+           "state_description":"",
+           "is_initial_state":true,
+           "is_final_state":false
+        },
+        "input_memory":"2",
+        "output_state":{
+           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
+           "state_name":"Stan 1",
+           "state_description":"",
+           "is_initial_state":true,
+           "is_final_state":false
+        },
+        "output_memory":"2",
+        "movement":"2"
+     },
+     {
+        "input_state":{
+           "id":"42211360-b038-1e2e-b59f-d9da0d7d2703",
+           "state_name":"Stan 1",
+           "state_description":"",
+           "is_initial_state":true,
+           "is_final_state":false
+        },
+        "input_memory":"0",
+        "output_state":{
+           "id":"6e3bfa80-b06c-1e2e-b59f-d9da0d7d2703",
+           "state_name":"Stan koncowy",
+           "state_description":"",
+           "is_initial_state":false,
+           "is_final_state":true
+        },
+        "output_memory":"0",
+        "movement":"1"
+     }
   ]
 }
